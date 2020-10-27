@@ -1,6 +1,6 @@
 {
   "name": "rn-pdf-reader-js",
-  "version": "4.1.1",
+  "version": "4.1.3",
   "description": "PDF reader for Expo",
   "main": "node_modules/expo/AppEntry.js",
   "types": "lib/index.d.ts",
@@ -34,9 +34,9 @@
     "url": "git+https://github.com/xcarpentier/rn-pdf-reader-js.git"
   },
   "peerDependencies": {
-    "expo": "*",
-    "expo-constants": "*",
-    "expo-file-system": "*",
+    "expo": "^39.0.0",
+    "expo-constants": "~9.2.0",
+    "expo-file-system": "~9.2.0",
     "react": "16.x",
     "react-native": "*",
     "react-native-webview": "*"
